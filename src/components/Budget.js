@@ -30,6 +30,8 @@ const Budget = () => {
             <span>Budget: {currency}</span>
             <input type="number" step="10" value={budget} onInput={(event) => changeBudget(event.target.value)}></input>
         </div>
+    
+    
     );
 };
 
